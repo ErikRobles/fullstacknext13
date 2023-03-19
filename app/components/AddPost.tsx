@@ -3,7 +3,7 @@ import React, { useState } from "react"
 import { useMutation, useQueryClient } from "@tanstack/react-query"
 import axios, { AxiosError } from "axios"
 import toast from "react-hot-toast"
-
+// Create Post
 function CreatePost() {
   const [title, setTitle] = useState("")
   const [isDisabled, setIsDisabled] = useState(false)
